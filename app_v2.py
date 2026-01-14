@@ -6,7 +6,7 @@ import os
 from contextlib import asynccontextmanager
 
 # --- Carregamento dos Modelos e Variaveis Globais ---
-MODEL_PATH_MULTI = "../models/modelo_multi.joblib"
+MODEL_PATH_MULTI = "./data/models/modelo_multi.joblib"
 model_multi = None
 
 # --- CONTRATO DE DADOS ---

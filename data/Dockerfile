@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy the requirements file into the container at /code
-COPY requirements.txt .
+COPY ../requirements.txt .
 
 # Install any needed packages specified in requirements.txt
 # Using --no-cache-dir to keep image size down
